@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "e1rYqigrV5jS4MokPn0skfkMF1Zaq832orcw7n+K/j9Hfa6kLrtSpCNAIYqPdZNsl8Hu1uMwQZE+IxLOkCbxuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ilia\\source\\repos\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ilia\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\jetbrains.annotations\\2022.3.1\\jetbrains.annotations.2022.3.1.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\nice3point.revit.extensions\\2020.2.0\\nice3point.revit.extensions.2020.2.0.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\nice3point.revit.toolkit\\2020.1.0\\nice3point.revit.toolkit.2020.1.0.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Ilia\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

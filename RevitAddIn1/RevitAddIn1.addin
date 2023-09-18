@@ -1,0 +1,11 @@
+﻿<RevitAddIns>
+    <AddIn Type="Command">
+        <Name>RevitAddIn1</Name>
+        <Assembly>RevitAddIn1/RevitAddIn1.dll</Assembly>
+        <AddInId>77E93A6D-76E2-4049-A067-30255207F09B</AddInId>
+        <FullClassName>RevitAddIn1.Commands.Command</FullClassName>
+        <Text>RevitAddIn1</Text>
+        <VendorId>Ilia Krachkovskii</VendorId>
+        <VendorDescription></VendorDescription>
+    </AddIn>
+</RevitAddIns>
