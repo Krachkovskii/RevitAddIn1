@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilia\\source\\repos\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj": {}
+    "C:\\Users\\mi\\source\\repos\\Krachkovskii\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilia\\source\\repos\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj": {
+    "C:\\Users\\mi\\source\\repos\\Krachkovskii\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj": {
       "version": "2020.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilia\\source\\repos\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj",
+        "projectUniqueName": "C:\\Users\\mi\\source\\repos\\Krachkovskii\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj",
         "projectName": "RevitAddIn1",
-        "projectPath": "C:\\Users\\Ilia\\source\\repos\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj",
-        "packagesPath": "C:\\Users\\Ilia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilia\\source\\repos\\RevitAddIn1\\RevitAddIn1\\obj\\",
+        "projectPath": "C:\\Users\\mi\\source\\repos\\Krachkovskii\\RevitAddIn1\\RevitAddIn1\\RevitAddIn1.csproj",
+        "packagesPath": "C:\\Users\\mi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mi\\source\\repos\\Krachkovskii\\RevitAddIn1\\RevitAddIn1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ilia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,7 +57,7 @@
               "version": "[2020.1.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

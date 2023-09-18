@@ -9,7 +9,7 @@ using Autodesk.Revit.UI;
 
 namespace RevitAddIn1.Commands
 {
-    internal class Updater : IExternalEventHandler
+    internal class ExternalEventHandler : IExternalEventHandler
     {
         public void Execute(UIApplication app)
         {
@@ -24,7 +24,8 @@ namespace RevitAddIn1.Commands
 
         public Result Execute (ExternalCommandData commandData, ref string message, ElementSet elementSet)
         {
-
+            Result result = new Result();
+            return result;
         }
     }
 }
