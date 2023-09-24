@@ -65,28 +65,6 @@ namespace RevitAddIn1.Commands
             return result;
         }
 
-        public static void CloneSelectedValues(List<int> indices)
-        {
-            List<ElementToCompare> elementList = RevitApi.ViewModelInstance.ElementList;
-
-            Document Doc = RevitApi.Document;
-            Transaction t = new Transaction(Doc, "Parameter updating");
-            t.Start();
-
-            foreach (int index in indices)
-            {
-                try
-                {
-                    CloneParameterValue(elementList[0].Parameters[index], elementList[1].Parameters[index]);
-                }
-                catch (Exception ex)
-                {
-                    t.RollBack();
-                    //MessageBox.Show($"Error updating the parameters: { ex.Message }");
-                }
-            }
-        }
-
         /// <summary>
         /// Copies parameter value from the first element to the second. This method handles all types of parameter data.
         /// </summary>

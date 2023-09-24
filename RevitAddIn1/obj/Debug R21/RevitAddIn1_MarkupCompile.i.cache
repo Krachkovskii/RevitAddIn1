@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Ilia\source\repos\RevitAddIn1\RevitAddIn1\obj\Debug R21\
+C:\Users\mi\source\repos\Krachkovskii\RevitAddIn1\RevitAddIn1\obj\Debug R21\
 RevitAddIn1
 none
 false
@@ -12,9 +12,9 @@ TRACE;DEBUG;R21;R20_OR_GREATER;R21_OR_GREATER;DEBUG_R21;NETFRAMEWORK;NET48;
 
 2934581673
 
-10-1796938351
-34511671731
+12902325343
+342082830202
 Views\RevitAddIn1View.xaml;Views\Styles.xaml;
 
-True
+False
 

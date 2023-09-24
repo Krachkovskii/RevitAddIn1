@@ -31,6 +31,11 @@ namespace RevitAddIn1.Commands
                 case OperationType.UpdateParameters:
                     try
                     {
+                        using (Transaction t = new Transaction(RevitApi.Document, "Updating parameters"))
+                        {
+                            t.Start();
+                            t.Commit();
+                        }
                         return Result.Succeeded;
                     }
 
