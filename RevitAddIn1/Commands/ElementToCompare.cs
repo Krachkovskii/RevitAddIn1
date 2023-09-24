@@ -69,7 +69,7 @@ namespace RevitAddIn1.Commands
 
                     else if (p.StorageType == StorageType.Integer)
                     {
-                        if (ParameterType.YesNo == p.Definition.ParameterType)
+                        if (p.Definition.ParameterType == ParameterType.YesNo)
                         {
                             if (p.AsInteger() == 0)
                             {

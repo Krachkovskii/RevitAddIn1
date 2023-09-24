@@ -21,11 +21,5 @@ namespace RevitAddIn1.Commands
             string Return = "WTF is this";
             return Return;
         }
-
-        public Result Execute (ExternalCommandData commandData, ref string message, ElementSet elementSet)
-        {
-            Result result = new Result();
-            return result;
-        }
     }
 }

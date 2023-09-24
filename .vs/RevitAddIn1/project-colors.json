@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9caa361a-3cb7-4f16-a8bb-085b88258e79": {
+      "ProjectGuid": "9caa361a-3cb7-4f16-a8bb-085b88258e79",
+      "DisplayName": "RevitAddIn1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
