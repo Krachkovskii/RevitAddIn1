@@ -5,6 +5,11 @@
       "ProjectGuid": "9caa361a-3cb7-4f16-a8bb-085b88258e79",
       "DisplayName": "RevitAddIn1",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

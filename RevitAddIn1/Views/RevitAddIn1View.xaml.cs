@@ -1,4 +1,5 @@
 ﻿using Autodesk.Revit.DB;
+using Autodesk.Revit.UI;
 using RevitAddIn1.Commands;
 using RevitAddIn1.Core;
 using RevitAddIn1.ViewModels;
@@ -13,6 +14,8 @@ namespace RevitAddIn1.Views
 {
     public partial class RevitAddIn1View
     {
+        private ExternalEvent externalEvent;
+        
         public RevitAddIn1View(RevitAddIn1ViewModel viewModel)
         {
             InitializeComponent();
@@ -24,6 +27,9 @@ namespace RevitAddIn1.Views
             Element2Parameters.SelectionChanged += ListBox_SelectionChanged;
 
             this.Left = SystemParameters.PrimaryScreenWidth - this.Width - 20;
+
+            EventData eventData = new EventData();
+            externalEvent = ExternalEvent.Create(new ExternalEventHandler(eventData));
 
             ParameterNames.AddHandler(ScrollViewer.ScrollChangedEvent, new RoutedEventHandler(ParameterList_ScrollChanged));
             Element1Parameters.AddHandler(ScrollViewer.ScrollChangedEvent, new RoutedEventHandler(ParameterList_ScrollChanged));
@@ -163,9 +169,13 @@ namespace RevitAddIn1.Views
 
         private void TransferParameters1to2_Click(object sender, RoutedEventArgs e)
         {
-            Command.CloneSelectedValues(SelectedIndices);
+            EventData eventData = new EventData();
+            eventData.operationType = OperationType.UpdateParameters;
+            eventData.ReferenceElementIndex = 0;
+
+            externalEvent.Raise();
         }
-        private List<int> SelectedIndices { get; set; } = new List<int>();
+        internal List<int> SelectedIndices { get; private set; } = new List<int>();
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
             CheckBox checkBox = (CheckBox)sender;

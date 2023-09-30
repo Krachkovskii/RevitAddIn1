@@ -21,7 +21,6 @@ namespace RevitAddIn1.Commands
     [Transaction(TransactionMode.Manual)]
     public class Command : ExternalCommand
     {
-
         public override void Execute()
         {
             RevitApi.UiApplication = this.UiApplication;
